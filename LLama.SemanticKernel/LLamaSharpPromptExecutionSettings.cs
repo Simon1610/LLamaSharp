@@ -69,6 +69,12 @@ public class LLamaSharpPromptExecutionSettings : PromptExecutionSettings
     public string ResponseFormat { get; set; } = string.Empty;
 
     /// <summary>
+    /// Try to invoke a function call json answers.
+    /// </summary>
+    [JsonPropertyName("auto_invoke")]
+    public bool? AutoInvoke { get; set; } = true;
+
+    /// <summary>
     /// Create a new settings object with the values from another settings object.
     /// </summary>
     /// <param name="requestSettings">Template configuration</param>

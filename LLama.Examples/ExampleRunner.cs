@@ -28,6 +28,7 @@ public class ExampleRunner
         { "Semantic Kernel: Prompt", SemanticKernelPrompt.Run },
         { "Semantic Kernel: Chat", SemanticKernelChat.Run },
         { "Semantic Kernel: Store", SemanticKernelMemory.Run },
+        { "Semantic Kernel: Automatic Function Calling", SemanticKernelFunctionCalling.Run },
         { "Batched Executor: Save/Load", BatchedExecutorSaveAndLoad.Run },
         { "Batched Executor: Fork", BatchedExecutorFork.Run },
         { "Batched Executor: Rewind", BatchedExecutorRewind.Run },

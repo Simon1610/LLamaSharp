@@ -64,6 +64,11 @@ public class ChatRequestSettings : PromptExecutionSettings
     public IDictionary<int, int> TokenSelectionBiases { get; set; } = new Dictionary<int, int>();
 
     /// <summary>
+    /// Try to invoke a function call json answers.
+    /// </summary>
+    public bool? AutoInvoke { get; set; }
+
+    /// <summary>
     /// Create a new settings object with the values from another settings object.
     /// </summary>
     /// <param name="requestSettings">Template configuration</param>
